@@ -7,7 +7,7 @@ namespace domash_6_zadaniy_obrabotka
          static void Main()
          {
             m1:
-                Console.Clear();
+                Console.Clear();    //Очистка консоли
 
                 Console.WriteLine("Выберите опцию (Используйте цифры и буквы на клавиатуре):\n\n" +
                "1. Задание 1: Вывод на экран сложения двух целых чисел\n" +
