@@ -1,9 +1,10 @@
-﻿using System;
+﻿using System;   //Использование основной библиотеки для консольных приложений
 
-namespace domash_6_zadaniy_obrabotka
+namespace domash_6_zadaniy_obrabotka    //Использование пространства имен, грубо говоря использование папки с классами и основным
 {
-    class WriteError
+    class WriteError    
     {
+        //Метот обрабатывающий исключение при вводе символа
         public static void Format()
         {
             Console.WriteLine("\nОшибка, неверный формат ввода. Могут использоваться только цифры от 0 до 9.\n\nНажмите любую клавишу чтобы вернуться в меню");
@@ -11,6 +12,7 @@ namespace domash_6_zadaniy_obrabotka
             Console.ReadKey();
         }
 
+        //Метод обрабатывающий исключение при любой арифмитической ошибке
         public static void Arithmetic()
         {
             Console.WriteLine("\nОшибка при расчёте.\n\nНажмите любую клавишу чтобы вернуться в меню");
@@ -18,6 +20,7 @@ namespace domash_6_zadaniy_obrabotka
             Console.ReadKey();
         }
 
+        //Метод обрабатывающий исключение при попытке деления на 0
         public static void Zero()
         {
             Console.WriteLine("\nОшибка, делить на 0 нельзя.\n\nНажмите любую клавишу чтобы вернуться в меню");
@@ -25,6 +28,7 @@ namespace domash_6_zadaniy_obrabotka
             Console.ReadKey();
         }
 
+        //Метод обрабатывающий исключение при выходе за возможный диапозон определенного типа данных, в данном случае данных типа Int32
         public static void OverFlow()
         {
             Console.WriteLine("\nОшибка, результат или вводимые данные находятся за пределами диапазона типа данных.\n\nНажмите любую клавишу чтобы вернуться в меню", Int32.MaxValue);
