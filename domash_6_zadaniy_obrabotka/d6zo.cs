@@ -2,7 +2,7 @@
 
 namespace domash_6_zadaniy_obrabotka
 {
-    class d6zo //Сокращенное название "domash_6_zadaniy_obrabotka"
+    class d6zo
     {
          static void Main()
          {
@@ -31,10 +31,10 @@ namespace domash_6_zadaniy_obrabotka
                             Console.WriteLine("Задание 1: Вывод на экран сложения двух целых чисел\n");
 
                             Console.Write("Введите a: ");
-                            int a = int.Parse(Console.ReadLine());
+                            int a = int.Parse(Console.ReadLine());  
 
                             Console.Write("Введите b: ");
-                            int b = int.Parse(Console.ReadLine());
+                            int b = int.Parse(Console.ReadLine());  
 
                             int c = a + b;
 
