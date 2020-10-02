@@ -18,8 +18,8 @@ namespace domash_6_zadaniy_obrabotka
                "6. Задание 6: Вывод на экран трех вещественных числа (до 2-х знаков после запятой)\n" +
                "\nВыход: X\n");
 
-                while (true)
-                {
+            while (true) // Привет здесь !
+            {
                     ConsoleKeyInfo key = Console.ReadKey(true);
 
                     if (key.Key == ConsoleKey.D1)
