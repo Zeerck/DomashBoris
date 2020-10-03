@@ -11,19 +11,14 @@ namespace domash_figure_9
             {
                 Console.Clear();
                 Console.WriteLine("Введите x: ");
-                float x = float.Parse(Console.ReadLine());
+                int x = int.Parse(Console.ReadLine());
 
                 Console.WriteLine("Введите y: ");
-                float y = float.Parse(Console.ReadLine());
+                int y = int.Parse(Console.ReadLine());
 
-                float xSum, ySum;
-
-                xSum = x * x;
-                ySum = y * y;
-
-                if ((xSum + ySum) > 4 & y < 6)
+                if ((y == 0) && (x >= 2 && x <= 6) || ((y == 1) && (x == 5)) || ((y == 2) && (x == 1 || x == 4)) || ((y == 3) && (x == 3)) || ((y == 4) && (x == 0 || x == 2)) || ((y == 5) && (x == 1 || x == 0)) || ((y == 6) && (x == 0)))
                 {
-                    Console.WriteLine("Точка входит в фигуру\n\nНажмите X чтобы выйти или B для продолжения работы в программе");
+                    Console.WriteLine("Точка на границе фигуры\n\nНажмите X чтобы выйти или B для продолжения работы в программе");
 
                     ConsoleKeyInfo key = Console.ReadKey(true);
 
@@ -36,9 +31,9 @@ namespace domash_figure_9
                         goto m1;
                     }
                 }
-                else if ((xSum + ySum) < 4 || y >= 6)
+                else if (((y == 1) && (x >= 2 && x <= 4)) || ((y == 2) && (x == 2 || x == 3)) || ((y == 3) && (x == 1 || x == 2)) || ((y == 4) && (x == 1)))
                 {
-                    Console.WriteLine("Точка вне фигуры\n\nНажмите X чтобы выйти или B для продолжения работы в программе");
+                    Console.WriteLine("Точка в фигуре\n\nНажмите X чтобы выйти или B для продолжения работы в программе");
 
                     ConsoleKeyInfo key = Console.ReadKey(true);
 
@@ -53,7 +48,7 @@ namespace domash_figure_9
                 }
                 else
                 {
-                    Console.WriteLine("Точка на границе фигуры\n\nНажмите X чтобы выйти или B для продолжения работы в программе");
+                    Console.WriteLine("Точка вне фигуры\n\nНажмите X чтобы выйти или B для продолжения работы в программе");
 
                     ConsoleKeyInfo key = Console.ReadKey(true);
 
