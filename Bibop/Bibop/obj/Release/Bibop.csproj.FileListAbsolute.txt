@@ -1,0 +1,10 @@
+C:\Users\coblu\source\repos\Bibop\Bibop\bin\Release\Bibop.exe.config
+C:\Users\coblu\source\repos\Bibop\Bibop\bin\Release\Bibop.exe
+C:\Users\coblu\source\repos\Bibop\Bibop\bin\Release\Bibop.pdb
+C:\Users\coblu\source\repos\Bibop\Bibop\obj\Release\Bibop.Form1.resources
+C:\Users\coblu\source\repos\Bibop\Bibop\obj\Release\Bibop.Properties.Resources.resources
+C:\Users\coblu\source\repos\Bibop\Bibop\obj\Release\Bibop.csproj.GenerateResource.cache
+C:\Users\coblu\source\repos\Bibop\Bibop\obj\Release\Bibop.csproj.CoreCompileInputs.cache
+C:\Users\coblu\source\repos\Bibop\Bibop\obj\Release\Bibop.exe
+C:\Users\coblu\source\repos\Bibop\Bibop\obj\Release\Bibop.pdb
+C:\Users\coblu\source\repos\Bibop\Bibop\obj\Release\Bibop.csprojAssemblyReference.cache
